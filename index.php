@@ -17,8 +17,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-	<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+	<!-- Librerias css necesarias -->
+	<link rel="stylesheet" href="css/dependencies/bootstrap.min.css">
+	<link rel="stylesheet" href="css/dependencies/font-awesome.min.css">
+
+	<!-- Css para estructura del sitio -->
 	<link rel="stylesheet" href="css/style.css">
 
 	<title>Nattaly Estudio</title>
@@ -60,9 +63,12 @@
 		</div>	
 	</div>
 	
-	<script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<!-- Librerias JS necesarias-->
+	<script src="js/dependencies/jquery.min.js"></script>
+	<script src="js/dependencies/popper.min.js"></script>
+	<script src="js/dependencies/bootstrap.min.js"></script>
+
+	<!-- Js para funcionamiento del sitio -->
     <script src="js/main.js"></script>
 
 </body>

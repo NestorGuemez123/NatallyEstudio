@@ -13,27 +13,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!-- Required meta tags always come first -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <!-- Bootstrap CSS -->
-    <!-- build:css css/main.css -->
-    <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-	<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
-	<link rel="stylesheet" href="node_modules/bootstrap-datepicker/dist/css/bootstrap-datepicker.standalone.min.css">
-	<link rel="stylesheet" href="css/style.css"> -->
+    <!-- Librerias css necesarias -->
+	<link rel="stylesheet" href="css/dependencies/bootstrap.min.css">
+	<link rel="stylesheet" href="css/dependencies/font-awesome.min.css">
+	<link rel="stylesheet" href="css/dependencies/dataTables.bootstrap4.min.css">
+	<link rel="stylesheet" href="css/dependencies/dataTables.fontAwesome.css">
+	<link rel="stylesheet" href="css/dependencies/bootstrap-datepicker.standalone.min.css">
+	<link rel="stylesheet" href="css/dependencies/select2.min.css">
 
-	 <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="node_modules/data-tables/dataTables.bootstrap4.min.css">
-
-	<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="node_modules/data-tables/dataTables.fontAwesome.css">
-	<link rel="stylesheet" href="node_modules/bootstrap-datepicker/dist/css/bootstrap-datepicker.standalone.min.css">
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+	<!-- Css para estructura del sitio --> 
 	<link rel="stylesheet" href="css/style.css">
-	<!-- endbuild -->
 
 	<title>Panel de trabajo</title>
 	
@@ -395,19 +388,18 @@
                     </div>
                </div>
 	</div>
-	<!-- jQuery first, then Popper, then Bootstrap JS. -->
-	<!-- build:js js/main.js -->
+	<!-- Librerias js necesarias -->
+	<script src="js/dependencies/jquery.min.js"></script>
+	<script src="js/dependencies/popper.min.js"></script>
+	<script src="js/dependencies/bootstrap.min.js"></script>
+	<script src="js/dependencies/jquery.dataTables.min.js"></script>
+	<script src="js/dependencies/dataTables.bootstrap4.min.js"></script>
+	<script src="js/dependencies/bootstrap-datepicker.min.js"></script>
+	<script src="js/dependencies/bootstrap-datepicker.es.min.js"></script>
+	<script src="js/dependencies/select2.min.js"></script>
 
-	<script src="node_modules/jquery/dist/jquery.min.js"></script>
-	<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-	<script src="node_modules/data-tables/jquery.dataTables.min.js"></script>
-	<script src="node_modules/data-tables/dataTables.bootstrap4.min.js"></script>
-	<script src="node_modules/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
-	<script src="node_modules/bootstrap-datepicker/dist/locales/bootstrap-datepicker.es.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+	<!-- Js para funcionamiento del sitio -->
 	<script src="js/scripts.js"></script>
-	<!-- endbuild --> 
 </body>
 
 </html>

@@ -23,9 +23,5 @@ $(document).on("submit", "#formulariolg", function(evento){
 			},3000);
 			$("#boton-login").val("Ingresar");
 		}
-	}).fail(function(resp){
-		console.log(resp);
-	}).always(function(){
-		console.log("Completado");
-	});
+	})
 });
